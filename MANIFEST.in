@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ptkmo *.css
+recursive-include ptkmo *.csv
+recursive-include ptkmo *.html
+recursive-include ptkmo *.ico
+recursive-include ptkmo *.js
+recursive-include ptkmo *.json
+recursive-include ptkmo *.md
+recursive-include ptkmo *.png
+recursive-include ptkmo *.py
+recursive-include ptkmo *.svg
+recursive-include ptkmo *.txt
+recursive-exclude ptkmo *.pyc
