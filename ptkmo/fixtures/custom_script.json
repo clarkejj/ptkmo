@@ -1,0 +1,11 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Sales Invoice", 
+  "modified": "2016-03-18 13:49:46.933804", 
+  "name": "Sales Invoice-Client", 
+  "script": "cur_frm.add_fetch(\"company\",\"company_name\",\"company_name\");\ncur_frm.add_fetch(\"company\",\"address\",\"company_address\");", 
+  "script_type": "Client"
+ }
+]
