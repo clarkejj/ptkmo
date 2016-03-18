@@ -10,10 +10,7 @@ app_color = "blue"
 app_email = "mk@ov.s"
 app_version = "0.0.1"
 app_license = "MIT"
-fixtures = ["Custom Field",
-"Property Setter",
-"Custom Script",
-"Print Format"]
+fixtures = ["Custom Field", "Custom Script", "Print Format"]
 
 # Includes in <head>
 # ------------------
