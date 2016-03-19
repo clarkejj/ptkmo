@@ -7,5 +7,14 @@
   "name": "Sales Invoice-Client", 
   "script": "cur_frm.add_fetch(\"company\",\"company_name\",\"company_name\");\ncur_frm.add_fetch(\"company\",\"address\",\"company_address\");", 
   "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Sales Invoice Item", 
+  "modified": "2016-03-19 13:09:54.576528", 
+  "name": "Sales Invoice Item-Client", 
+  "script": "cur_frm.add_fetch(\"item_group\", \"item_group_name\", \"item_group_name\")", 
+  "script_type": "Client"
  }
 ]
